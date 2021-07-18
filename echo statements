@@ -1,0 +1,36 @@
+// Started by Commit
+
+Push event to branch main
+16:48:03 Connecting to https://api.github.com with no credentials, anonymous access
+Obtained Jenkinsfile from 9cf164fa84addbf0b2c637a859bc5387f96b0ab0
+Running in Durability level: MAX_SURVIVABILITY
+
+currentBuild value is org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper@10fd2f6f
+currentBuild.getBuildCauses is [[_class:jenkins.branch.BranchEventCause, shortDescription:Push event to branch main]]
+userIdCause value is []
+userIdCause.size() value is 0
+
+------------------------------------x---------------------------------------------
+
+// Started by Upstream Job
+
+Started by upstream project "upstream" build number 2
+originally caused by:
+ Started by user jenkins
+ 
+ currentBuild value is org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper@eb994e1
+currentBuild.getBuildCauses is [[_class:hudson.model.Cause$UpstreamCause, shortDescription:Started by upstream project "upstream" build number 2, upstreamBuild:2, upstreamProject:upstream, upstreamUrl:job/upstream/]]
+userIdCause value is []
+userIdCause.size() value is 0
+
+-----------------------------------------x-----------------------------------
+
+//Started by Manual BUILD trigger
+
+Started by user jenkins
+Replayed #3
+
+currentBuild value is org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper@70fa3615
+currentBuild.getBuildCauses is [[_class:hudson.model.Cause$UserIdCause, shortDescription:Started by user jenkins, userId:jenkins, userName:jenkins], [_class:org.jenkinsci.plugins.workflow.cps.replay.ReplayCause, shortDescription:Replayed #3]]
+userIdCause value is [[_class:hudson.model.Cause$UserIdCause, shortDescription:Started by user jenkins, userId:jenkins, userName:jenkins]]
+userIdCause.size() value is 1
